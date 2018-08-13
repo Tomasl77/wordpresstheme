@@ -1,0 +1,16 @@
+/*
+Theme Name: lobthem
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Lobgeois Tomas
+Author URI: http://tomasl77.github.io/
+Description: My first theme.
+Version: 1.0
+Text Domain: lobthem
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.m-30-x{
+	margin-bottom: 30px;
+}

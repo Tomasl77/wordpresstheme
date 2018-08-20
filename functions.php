@@ -35,9 +35,14 @@ function ltthe_setup()
 
 	remove_action('wp_head','wp_generator');
 
-	//remove_filter('the_content','wptexturize');
+	remove_filter('the_content','wptexturize');
+	remove_filter('the_excerpt','wptexturize');
 
 	add_theme_support('title-tag');
+
+	require_once('includes/wp-bootstrap-navwalker.php');
+
+	register_nav_menus( array('primary' =>__('principal')) );
 }
 
 add_action('after_setup_theme','ltthe_setup');

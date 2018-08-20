@@ -14,3 +14,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .m-30-x{
 	margin-bottom: 30px;
 }
+
+.test{
+	border: 2px solid blue;
+}
